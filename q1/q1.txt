@@ -1,0 +1,13 @@
+(master) git commit -m "A"
+(develop) git checkout -b develop
+(develop) git commit -m "B"
+(develop) git checkout master
+(master) git commit -m "C"
+(master) git merge develop
+(master) git commit -m "D"
+(master) git checkout develop
+(develop) git commit -m "E"
+(develop) git checkout master
+(master) git merge develop
+(master) git commit -m "F"
+(master) git checkout develop
